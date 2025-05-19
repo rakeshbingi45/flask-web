@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -79,6 +79,42 @@ header input[type="text"] {
   right: 10px; /* Position the next button on the right */
 }
 
+/* Categories Section */
+.categories {
+  padding: 2rem;
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for categories */
+  gap: 2rem;
+  justify-items: center;
+}
+
+.category-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.category-item img {
+  width: 100%;
+  max-width: 200px; /* Set a max width for images */
+  height: auto;
+}
+
+.category-item h3 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.category-item h3 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
 .featured-products {
   text-align: center; /* Center the title and content */
   margin: 20px 0; /* Add some spacing around the section */
@@ -121,7 +157,66 @@ button {
   border: none;
   cursor: pointer;
 }
+/* Payment Section */
+.payment {
+  max-width: 500px; /* Limit the width of the form */
+  margin: 2rem auto; /* Center align the section and add space above and below */
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
 
+.payment h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.payment form {
+  display: flex;
+  flex-direction: column; /* Stack form fields vertically */
+  gap: 1rem;
+}
+
+.payment label {
+  font-weight: bold;
+  color: #333;
+}
+
+.payment input[type="text"], 
+.payment input[type="month"],
+.payment select {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%; /* Full width for input fields */
+}
+
+.payment .order-summary {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.payment button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment button[type="submit"]:hover {
+  background-color: #525252;
+}
 
 
 footer {

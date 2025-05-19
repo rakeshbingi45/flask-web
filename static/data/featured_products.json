@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Apple iPhone 16 (128GB)",
+        "price": 79900,
+        "image": "images/Mobiles/16.jpg",
+        "link": "mobile-detail.html?name=Apple%20iPhone%2016%20(128GB)"
+    },
+    {
+        "name": "Asus ROG Zephyrus G16 (2024)",
+        "price": 179900,
+        "image": "images/Laptops/G16.png",
+        "link": "laptop-detail.html?name=Asus%20ROG%20Zephyrus%20G16%20(2024)"
+    },
+    {
+        "name": "Sony WH-1000XM4",
+        "price": 24900,
+        "image": "images/Audio/sonyw.jpg",
+        "link": "audio-detail.html?name=Sony%20WH-1000XM4"
+    },
+    {
+        "name": "Benq Monitor",
+        "price": 24900,
+        "image": "images/Monitor/benqMonitor.webp",
+        "link": "audio-detail.html?name=Sony%20WH-1000XM4"
+    },
+    {
+        "name": "Xbox Console",
+        "price": 79900,
+        "image": "images/Consoles/console.jpg",
+        "link": "mobile-detail.html?name=Apple%20iPhone%2016%20(128GB)"
+    },
+    {
+        "name": "Samsung Watch 5",
+        "price": 179900,
+        "image": "images/Watches/swatch.jpg",
+        "link": "laptop-detail.html?name=Asus%20ROG%20Zephyrus%20G16%20(2024)"
+    }
+]
